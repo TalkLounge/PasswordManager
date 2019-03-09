@@ -1,7 +1,7 @@
 Password Manager for Minetest
 ==================
 For more information
--Minetest Forum: 
+-Minetest Forum: https://forum.minetest.net/viewtopic.php?f=14&t=22313
 -YouTube: https://www.youtube.com/watch?v=MI3eYSjTY7Y
 
 License of source code:
