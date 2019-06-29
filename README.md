@@ -13,7 +13,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU Lesser General Public License along with this program; if not; write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-See [LICENSE](https://github.com/TalkLounge/PasswordManager/blob/master/LICENSE.md "Link to LICENSE.md")
+See [LICENSE](https://github.com/TalkLounge/PasswordManager/blob/master/LICENSE "Link to LICENSE")
 
 ## Credits
 **TalkLounge**  
