@@ -22,7 +22,6 @@ Start of external source code
 
 Author: TalkLounge
 Mail: talklounge@yahoo.de
-License: As long as my source code is used for non-commercial projects and I am referred as the author, with nickname & e-mail, you may do whatever you want with the source code. Otherwise you are forbidden to do anything with my source code. I assume no liability for any damages. If you have any questions, please contact me via e-mail.
 ]]
 
 local javaPath = "java" --Your path to java.exe. Example: C:/ProgramData/Oracle/Java/javapath/java.exe
