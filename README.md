@@ -22,7 +22,7 @@ GitHub: [TalkLounge](https://github.com/TalkLounge/ "Link to TalkLounge's GitHub
 Minetest: [TalkLounge](https://forum.minetest.net/memberlist.php?mode=viewprofile&u=20862 "Link to TalkLounge's Minetest Forum account")
 
 **Other contributors**  
-See: [Other contributors](https://github.com/TalkLounge/exschem/graphs/contributors "Link to other contributors")
+See: [Other contributors](https://github.com/TalkLounge/PasswordManager/graphs/contributors "Link to other contributors")
 
 ## Minetest forum post
 View [PasswordManager](https://forum.minetest.net/viewtopic.php?t=22313 "Link to PasswordManager post in the minetest forum")
