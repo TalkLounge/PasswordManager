@@ -427,7 +427,7 @@ local function main_button_handler(tabview, fields, name, tabdata)
           for key, value in pairs(serverdata) do
             if server.name == value.name then
               for _, player in pairs(value.clients_list) do
-                if player:lower() == keyword:lower() then
+                if player:lower():find(keyword:lower()) then
                   found = found + 2
                 end
               end
