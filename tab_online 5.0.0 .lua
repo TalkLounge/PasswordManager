@@ -273,11 +273,13 @@ local function main_button_handler(tabview, fields, name, tabdata)
 
 		if event.type == "DCL" then
 			if event.row <= #serverlist then
-				if menudata.favorites_is_public and
+				--Start of commented out source code by TalkLounge
+				--[[if menudata.favorites_is_public and
 						not is_server_protocol_compat_or_error(
 							fav.proto_min, fav.proto_max) then
 					return true
-				end
+				end]]
+				--End of commented out source code by TalkLounge
 
 				gamedata.address    = fav.address
 				gamedata.port       = fav.port
@@ -300,7 +302,11 @@ local function main_button_handler(tabview, fields, name, tabdata)
           end
           for key, value in pairs(serverdata) do
             if gamedata.servername == value.name then
-              gamedata.serverdescription = "Players on ".. value.name ..":\n".. table.concat(value.clients_list, ", ")
+							local clients_list = {}
+							for key, value in ipairs(value.clients_list) do
+								table.insert(clients_list, string.trim(value))
+							end
+              gamedata.serverdescription = "Players on ".. value.name ..":\n".. table.concat(clients_list, ", ")
             end
           end
 					--End of edited source code by TalkLounge
