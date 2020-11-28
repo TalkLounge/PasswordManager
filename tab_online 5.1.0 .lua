@@ -301,7 +301,7 @@ local function main_button_handler(tabview, fields, name, tabdata)
 						load_serverdata()
           end
           for key, value in pairs(serverdata) do
-            if gamedata.servername == value.name then
+            if gamedata.address == value.address and tonumber(gamedata.port) == value.port then
 							local clients_list = {}
 							for key, value in ipairs(value.clients_list) do
 								table.insert(clients_list, string.trim(value))
